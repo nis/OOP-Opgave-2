@@ -6,7 +6,7 @@ public class TestDriver
         Museum fsm = new Museum ("Fyns Stifts Museum", "Jernbanegade, Odense");
         
         Person lar = new Person ("L.A. Ring","dansk",1854,1933);
-        // Maleri kal = new Maleri ("Kalkmanden",1908,80,65,smk); 
+        Maleri kal = new Maleri ("Kalkmanden",1908,80,65,smk); 
         // kal.addOphavsmand(lar);
         // 
         // Person cwe = new Person ("C. W. Eckersberg","dansk",1783,1853);
