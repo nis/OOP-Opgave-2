@@ -13,7 +13,11 @@ public class Person {
 	
 	public void printMe() {
 		if (pNavn.length() > 0) {
-			System.out.print("\t" + pNavn + ", " + pNat + ", " + pBorn + "-" + pDead);
+			if (pDead == 0) {
+				System.out.println("\t" + pNavn + ", " + pNat + ", " + pBorn + "-");
+			} else {
+				System.out.println("\t" + pNavn + ", " + pNat + ", " + pBorn + "-" + pDead);
+			}
 		}
 	}
 }
