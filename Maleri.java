@@ -1,4 +1,4 @@
-public class Maleri extends Artwork{
+public class Maleri extends Kunstværk{
 	public int længde;
 	public int bredde;
 	public Museum museum;
