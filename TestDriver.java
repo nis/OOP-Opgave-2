@@ -7,16 +7,16 @@ public class TestDriver
         
         Person lar = new Person ("L.A. Ring","dansk",1854,1933);
         Maleri kal = new Maleri ("Kalkmanden",1908,80,65,smk); 
-        // kal.addOphavsmand(lar);
-        // 
-        // Person cwe = new Person ("C. W. Eckersberg","dansk",1783,1853);
-        // Maleri rus = new Maleri ("Et russisk linjeskib til ankers ved Helsingør",1828,140,135,fsm);
-        // rus.addOphavsmand(cwe);
-        // 
-        // Person køb = new Person ("Christian Købke","dansk",1810,1848);
-        // Maleri par = new Maleri ("Parti fra Dosseringen mod Nørrebro", 1841,100,85,smk);
-        // par.addOphavsmand(køb);
-        // 
+        kal.addOphavsmand(lar);
+
+        Person cwe = new Person ("C. W. Eckersberg","dansk",1783,1853);
+        Maleri rus = new Maleri ("Et russisk linjeskib til ankers ved Helsingør",1828,140,135,fsm);
+        rus.addOphavsmand(cwe);
+         
+        Person køb = new Person ("Christian Købke","dansk",1810,1848);
+        Maleri par = new Maleri ("Parti fra Dosseringen mod Nørrebro", 1841,100,85,smk);
+        par.addOphavsmand(køb);
+         
         // KunstværkSamling kvs = new KunstværkSamling();
         // kvs.add(kal);
         // kvs.add(rus);
