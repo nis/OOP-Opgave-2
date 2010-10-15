@@ -8,7 +8,7 @@ public class Person {
 		pNavn = navn;
 		pNat = nat;
 		pBorn = f;
-		pDead = d; 
+		pDead = d;
 	}
 	
 }
