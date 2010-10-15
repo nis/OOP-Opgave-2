@@ -6,10 +6,16 @@ public abstract class Kunst {
 	public Kunst(String t, int y) {
 		titel = t;
 		år = y;
-		
-		// for (int i = 0; i < 5; i++) {
-		// 	ophavsmænd[i] = new Person();
-		// }
+	}
+	
+	public int numOphavsmænd() {
+		int res = 0;
+		for (int i = 0; i < 5; i++) {
+			if (ophavsmænd[i] != null) {
+				res++;
+			}
+		}
+		return res;
 	}
 	
 	public void addOphavsmand(Person p) {
