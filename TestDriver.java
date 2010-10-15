@@ -17,13 +17,15 @@ public class TestDriver
         Maleri par = new Maleri ("Parti fra Dosseringen mod Nørrebro", 1841,100,85,smk);
         par.addOphavsmand(køb);
          
-        // KunstværkSamling kvs = new KunstværkSamling();
-        // kvs.add(kal);
-        // kvs.add(rus);
-        // kvs.add(par);
-        // 
-        // Person jl = new Person ("John Lennon","britisk",1940,1980);
-        // Person pm = new Person ("Paul Mccartney","britisk",1942,0);
+        KunstSamling kvs = new KunstSamling();
+        kvs.add(kal);
+        kvs.add(rus);
+        kvs.add(par);
+        
+		//kvs.printMe();
+
+        Person jl = new Person ("John Lennon","britisk",1940,1980);
+        Person pm = new Person ("Paul Mccartney","britisk",1942,0);
         // Komposition y = new Komposition("Yesterday",1965,"Rock",211);
         // y.addOphavsmand(jl);
         // y.addOphavsmand(pm);

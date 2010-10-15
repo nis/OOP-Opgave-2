@@ -11,4 +11,9 @@ public class Person {
 		pDead = d;
 	}
 	
+	public void printMe() {
+		if (pNavn.length() > 0) {
+			System.out.print("\t" + pNavn + ", " + pNat + ", " + pBorn + "-" + pDead);
+		}
+	}
 }

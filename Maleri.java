@@ -1,4 +1,4 @@
-public class Maleri extends Kunstværk{
+public class Maleri extends Kunst{
 	public int længde;
 	public int bredde;
 	public Museum museum;
@@ -8,5 +8,14 @@ public class Maleri extends Kunstværk{
 		længde = l;
 		bredde = b;
 		museum = m;
+	}
+	
+	public void printMe() {
+		System.out.println("Klasse: Maleri");
+		System.out.println("Længde: " + længde);
+		System.out.println("Bredde: " + bredde);
+		System.out.print("Museum: ");
+		museum.printMe();
+		super.printMe();
 	}
 }

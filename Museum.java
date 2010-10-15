@@ -6,4 +6,8 @@ public class Museum {
 		mNavn = n;
 		mAdresse = a;
 	}
+	
+	public void printMe() {
+		System.out.println(mNavn + ": " + mAdresse);
+	}
 }

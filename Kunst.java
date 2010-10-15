@@ -1,9 +1,9 @@
-public abstract class Kunstværk {
+public abstract class Kunst {
 	public String titel;
 	public int år;
 	public Person[] ophavsmænd = new Person[5];
 	
-	public Kunstværk(String t, int y) {
+	public Kunst(String t, int y) {
 		titel = t;
 		år = y;
 		
@@ -30,11 +30,15 @@ public abstract class Kunstværk {
 		}
 	}
 	
-	public void printOphav() {
+	public void printMe() {
+		System.out.println("Titel: " + titel);
+		System.out.println("År: " + år);
+		System.out.println("Ophavsmænd: ");
 		for (int i = 0; i < 5; i++) {
 			if (ophavsmænd[i] != null) {
-				System.out.println(ophavsmænd[i].pNavn);
+				ophavsmænd[i].printMe();
 			}
 		}
+		System.out.print("\n\n");
 	}
 }
