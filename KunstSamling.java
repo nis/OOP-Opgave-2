@@ -20,7 +20,7 @@ public class KunstSamling {
 		for (int i = 0; i < 7; i++) {
 			if (kunstværker[i].getClass().getName() == "Maleri") {
 				Maleri t = (Maleri) kunstværker[i];
-				if (t.museum.mNavn == m) {
+				if (t.museum.mNavn.equals(m)) {
 					System.out.println("\t" + kunstværker[i].titel);
 				}
 			}
